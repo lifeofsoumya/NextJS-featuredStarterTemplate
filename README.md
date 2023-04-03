@@ -15,7 +15,7 @@
 This is a modified version of create-next-app with multiple useful features to get started in a flash, to use this run this in terminal
 
 ```bash
-git clone <link to this repo>
+git clone https://github.com/lifeofsoumya/NextJS-featuredStarterTemplate.git
 ```
 
 Then, enter the directory using:
