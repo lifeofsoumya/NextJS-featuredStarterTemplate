@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/Apply.module.css'
+import styles from '../styles/apply.module.css'
 
 const Apply = () => {
   return (
