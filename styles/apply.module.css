@@ -1,7 +1,6 @@
 .background {
     position: relative;
     background-image: url('/images/background-desktop.jpg');
-    z-index: -1;
 }
 
 .background::after {
