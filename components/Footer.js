@@ -3,7 +3,17 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer aria-label="Site Footer" className=" bg-gray-900 text-white">
+    <footer>
+      <section aria-label="Site Footer" className=" bg-gray-900 text-white flex flex-col md:flex-row py-3 justify-center items-center">
+          <p className="text-xs text-gray-300 pb-2">
+            This site is using the NextJS Featured template
+          </p>
+          <Link className='flex flex-row items-center md:ml-3 bg-white rounded-lg px-2 py-1 w-auto hover:scale-110 transition-all duration-500' target='_blank' href="https://github.com/lifeofsoumya/NextJS-featuredStarterTemplate">
+            <img className='w-6 mr-1' src="/svg/nextjs.svg"/>
+            <h6 className='text-gray-700 font-semibold'>Use NextJS</h6>
+          </Link>
+      </section>
+    <section aria-label="Site Footer" className=" bg-gray-900 text-white">
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
@@ -11,7 +21,7 @@ const Footer = () => {
                 <img src='/images/logo-min.png' className='w-40' alt='typefinance logo'/>
               </div>
               <p className="max-w-xs mt-4 text-gray-500">
-                Helping to choose the best financing for you
+                Get started with your NextJS project right away.
               </p>
               <ul className="flex gap-6 mt-8">
                 <li>
@@ -69,16 +79,6 @@ const Footer = () => {
                         SIP Calculator
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/blog/how-to-open-a-demat-account-online" className="text-gray-300 transition hover:opacity-75">
-                        Open demat
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="text-gray-300 transition hover:opacity-75">
-                        1on1 Consulting
-                      </Link>
-                    </li>
                   </ul>
                 </nav>
               </div>
@@ -91,16 +91,6 @@ const Footer = () => {
                         About
                       </Link>
                     </li>
-                    <li>
-                      <Link href="#" className="text-gray-300 transition hover:opacity-75">
-                        Open demat
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#" className="text-gray-300 transition hover:opacity-75">
-                        Accounts Review
-                      </Link>
-                    </li>
                   </ul>
                 </nav>
               </div>
@@ -111,11 +101,6 @@ const Footer = () => {
                     <li>
                       <Link href="/contact" className="text-gray-300 transition hover:opacity-75">
                         Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/guides" className="text-gray-300 transition hover:opacity-75">
-                        Guides
                       </Link>
                     </li>
                     <li>
@@ -145,21 +130,17 @@ const Footer = () => {
                         Terms and conditions
                       </Link>
                     </li>
-                    <li>
-                      <Link href="#" className="text-gray-300 transition hover:opacity-75">
-                        Statistics
-                      </Link>
-                    </li>
                   </ul>
                 </nav>
               </div>
             </div>
           </div>
           <p className="text-xs text-gray-500">
-            © 2023. TypeFinance. All rights reserved.
+            NextJS template created with ❤️ by <Link href="https://soumyamondal.com" className="text-gray-500 transition hover:opacity-75">Soumya Mondal</Link>
           </p>
         </div>
-      </footer>
+      </section>
+    </footer>
   )
 }
 

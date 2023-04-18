@@ -11,6 +11,7 @@ const features = () => {
                     <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Page loader animation</li>
                     <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Dynamic Head component</li>
                     <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Responsive Navbar</li>
+                    <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Custom 404 Page</li>
                     <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Notification toast</li>
                     <li className='hover:text-indigo-500 hover:translate-x-2 transition-all duration-300 cursor-pointer'>Footer</li>
                 </ul>
