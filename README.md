@@ -1,3 +1,4 @@
+This is a NextJS featured starter template containing the Following features and more:
 ## Features
 
 - Tailwind CSS
@@ -6,8 +7,7 @@
 - Dynamic Head component | SEO
 - Responsive Navbar
 - Footer
-- Font setup 
-- EsLint
+- Toast Notifications
 
 
 ## Getting Started
